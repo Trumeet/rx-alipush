@@ -1,0 +1,9 @@
+<prescription xmlns="http://greenify.github.io/schemas/prescription/v1" type="service">
+  <intent-filter>
+    <action name="com.alibaba.push2.action.NOTIFICATION_OPENED" />
+    <action name="com.alibaba.push2.action.NOTIFICATION_REMOVED" />
+    <action name="com.taobao.accs.intent.action.COMMAND" />
+    <action name="com.taobao.taobao.intent.action.COMMAND" />
+    <action name="org.agoo.android.intent.action.RECEIVE" />
+  </intent-filter>
+</prescription>
